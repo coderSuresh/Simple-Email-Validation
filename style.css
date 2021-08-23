@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#email {
+    border-radius: 20px;
+    padding: 7px 20px;
+    outline: none;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+
+#button {
+    margin-left: 20px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    outline: none;
+    background-color: palevioletred;
+    border: none;
+    color: beige;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#success {
+    color: green;
+}
+
+#error {
+    color: red;
+}
